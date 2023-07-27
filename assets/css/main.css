@@ -215,3 +215,7 @@
       @apply gap-y-2;
     }
 }
+
+.footer {
+  padding-top: 200px;
+}

@@ -1,8 +1,10 @@
 ---
-title: "Ahoy There!"
+title: "👋 Hey,"
 draft: false
 ---
-Lowkey is a Clean and Simple Hugo theme inspired by [Adam Wathan's](https://adamwathan.me/) Website. Suitable for use as a personal blog, portofolio, etc. 
+I do a lot of things and being a product designer is one of them. 
+
+
 
 This theme uses TailwindCSS, so it's easy to customize.
 

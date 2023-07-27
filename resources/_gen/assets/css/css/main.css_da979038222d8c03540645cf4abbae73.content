@@ -956,24 +956,34 @@ span.begin-task-list + ul {
 .tags-list {
   row-gap: 0.5rem;
 }
+
+.footer {
+  padding-top: 200px;
+}
+
 .hover\:scroll-auto:hover {
   scroll-behavior: auto;
 }
+
 .hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
+
 .hover\:text-emerald-600:hover {
   --tw-text-opacity: 1;
   color: rgb(5 150 105 / var(--tw-text-opacity));
 }
+
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
+
 @media (min-width: 640px) {
 
   .sm\:order-1 {

@@ -1,50 +1,50 @@
 [[main]]
-    identifier = "home"
-    name = "Home"
+    identifier = "about"
+    name = "About"
     url = "/"
     weight = 1
 
 [[main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts"
+    identifier = "work"
+    name = "Work"
+    url = "/work"
     weight = 2
 
 [[main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "/categories"
+    identifier = "not-work"
+    name = "Not Work"
+    url = "/not-work"
     weight = 3
 
-[[main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags"
-    weight = 4
+# [[main]]
+#     identifier = "categories"
+#     name = "Categories"
+#     url = "/categories"
+#     weight = 4
 
-[[main]]
-    identifier = "donate"
-    name = "Donate"
-    url = "https://ko-fi.com/nixentric"
-    weight = 5
+# [[main]]
+#     identifier = "tags"
+#     name = "Tags"
+#     url = "/tags"
+#     weight = 5
+
+# [[main]]
+#     identifier = "linkedin"
+#     name = "LinkedIn"
+#     url = "https://linkedin.com/in/jefforshalick"
+#     weight = 5
 
 
 # Social Media Configuration
 
 [[social]]
-    identifier = "twitter"
-    name = "Twitter"
-    url = "#"
+    identifier = "linkedin"
+    name = "LinkedIn"
+    url = "https://linkedin.com/in/jefforshalick"
     weight = 1
 
 [[social]]
-    identifier = "instagram"
-    name = "Instagram"
-    url = "#"
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume.pdf"
     weight = 2
-
-[[social]]
-    identifier = "github"
-    name = "GitHub"
-    url = "#"
-    weight = 3
