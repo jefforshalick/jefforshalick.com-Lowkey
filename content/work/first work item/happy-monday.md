@@ -1,9 +1,13 @@
----
-title: "Happy Monday"
-draft: false
-description: "As cofounder and founding designer, I developed our brand, style, and design system."
----
++++
+date = "2018-01-28T23:57:39+00:00"
+image = "/img/hm/13.png"
+showonlyimage = false
+title = "Happy Monday ATS"
+type = ""
+weight = "400"
 
++++
+<!--more-->
 ![](/img/hm/13.png)
 
 I was a cofounder and our sole designer at Happy Monday. We developed a job applicant tracking software (ATS) in addition to other tools to support finding a job and hiring for them.

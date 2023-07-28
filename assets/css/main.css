@@ -276,3 +276,7 @@ article footer {
  time {
   display: none;
  }
+
+ nav ul li a {
+  letter-spacing: .1em;
+ }
