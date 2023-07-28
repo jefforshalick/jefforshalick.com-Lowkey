@@ -972,6 +972,10 @@ article footer {
   padding-top: 0px;
 }
 
+nav ul li a:hover {
+  text-color: blue !important;
+}
+
 .hover\:scroll-auto:hover {
   scroll-behavior: auto;
 }
