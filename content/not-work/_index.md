@@ -1,7 +1,6 @@
 ---
-title: "Not Work"
+title: "Jeff Orshalick | Not Work"
 header: "💃 Not Work"
-draft: false
 ---
 Here, you can find some things I've done from my time off-the-clock.
 

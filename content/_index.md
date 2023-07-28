@@ -1,6 +1,5 @@
 ---
 title: "👋 Hey,"
-draft: false
 class: "home"
 ---
 Thanks for stopping by. I've been working as a [product designer](https://linkedin.com/in/jefforshalick) for the past decade and have done a lot of other stuff along the way, too. I love learning, building, and collaborating.

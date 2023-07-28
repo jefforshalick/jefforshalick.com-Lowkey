@@ -1,8 +1,8 @@
-[[main]]
-    identifier = "home"
-    name = "🏠 Home"
-    url = "/"
-    weight = 1
+# [[main]]
+#     identifier = "home"
+#     name = "🏠 Home"
+#     url = "/"
+#     weight = 1
 
 [[main]]
     identifier = "work"
@@ -16,17 +16,19 @@
     url = "/not-work"
     weight = 3
 
+[[main]]
+    identifier = "now"
+    name = "🕰️ Now"
+    url = "/now"
+    weight = 4
+
 # [[main]]
 #     identifier = "about"
 #     name = "📓 About"
 #     url = "/"
 #     weight = 1
 
-# [[main]]
-#     identifier = "now"
-#     name = "🕰️ Now"
-#     url = "/now"
-#     weight = 4
+
 
 # [[main]]
 #     identifier = "say-hi"
