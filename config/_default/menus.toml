@@ -1,8 +1,8 @@
-[[main]]
-    identifier = "about"
-    name = "📓 About"
-    url = "/"
-    weight = 1
+# [[main]]
+#     identifier = "about"
+#     name = "📓 About"
+#     url = "/"
+#     weight = 1
 
 [[main]]
     identifier = "work"
@@ -17,10 +17,16 @@
     weight = 3
 
 [[main]]
-    identifier = "say-hi"
-    name = "📬 Say hey "
-    url = "/contact"
+    identifier = "now"
+    name = "🕰️ Now"
+    url = "/now"
     weight = 4
+
+# [[main]]
+#     identifier = "say-hi"
+#     name = "📬 Say hey"
+#     url = "/contact"
+#     weight = 4
 
 # [[main]]
 #     identifier = "categories"

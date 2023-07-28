@@ -972,33 +972,67 @@ article footer {
   padding-top: 0px;
 }
 
-nav ul li a:hover {
-  text-color: blue !important;
+/* img[alt$="float-left"] {
+  float: left;
+  padding: 2px;
+} */
+
+#images-wrapper {    
+  line-height: 0;       
+   -webkit-column-count: 5;    
+   -webkit-column-gap: 2px;    
+   -moz-column-count: 5;
+   -moz-column-gap: 2px;
+    column-count: 5;    
+    column-gap: 2px;    
+}  
+#images-wrapper img {    
+  width: 100%;
+  height: auto;
+  padding: 2px; 
+}  
+#images-wrapper{    
+  display:inline-block;    
+  margin-right: auto;    
+  margin-left: auto;  
 }
 
+@media (max-width: 1000px) {
+  #images-wrapper {
+  -moz-column-count:    3;
+  column-count:         3;
+  }
+ }  
+@media (max-width: 800px) {
+  #images-wrapper {
+  -moz-column-count:    2;
+  column-count:         2;
+  }
+ }  
+@media (max-width: 400px) {
+  #images-wrapper {
+  -moz-column-count:    1;
+   column-count:        1;
+  }
+ }  
 .hover\:scroll-auto:hover {
   scroll-behavior: auto;
-}
-
+}  
 .hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
+}  
 .hover\:text-emerald-600:hover {
   --tw-text-opacity: 1;
   color: rgb(5 150 105 / var(--tw-text-opacity));
-}
-
+}  
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
+}  
 .hover\:underline:hover {
   text-decoration-line: underline;
-}
-
+}  
 @media (min-width: 640px) {
 
   .sm\:order-1 {
