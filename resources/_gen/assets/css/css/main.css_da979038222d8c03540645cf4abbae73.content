@@ -957,8 +957,19 @@ span.begin-task-list + ul {
   row-gap: 0.5rem;
 }
 
-.footer {
-  padding-top: 200px;
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+  padding-top: 80px;
+}
+
+article footer {
+  padding-top: 0px;
 }
 
 .hover\:scroll-auto:hover {

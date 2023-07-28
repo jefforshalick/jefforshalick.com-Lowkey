@@ -1,5 +1,5 @@
 ---
-title: "Post"
-header: "Latest Posts" # Optional
+title: "Work"
+header: "👨‍💻 Work"
 ---
-See What I’ve Written Lately
+Here, you can find some design work from my time on-the-clock and personal design projects.

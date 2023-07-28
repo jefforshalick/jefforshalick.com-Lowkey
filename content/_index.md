@@ -2,16 +2,10 @@
 title: "👋 Hey,"
 draft: false
 ---
-I do a lot of things and being a product designer is one of them. 
+Thanks for stopping by. I've been working as a [product designer](https://linkedin.com/in/jefforshalick) for the past decade and have done a lot of other stuff along the way, too. I love learning, building, and collaborating.
 
+When I have time outside of spending it with my lovely family 👪, I enjoy collecting watches ⌚, playing board games 🎲, building keyboards ⌨️, building houses 🛠️, eating at new restaraunts 🍜 , playing tennis 🎾, and traveling ✈️.
 
+If you're interested, you can see some of [my work](/work/) as well as some [not work stuff](/not-work/). Below are some pictures of me doing fun things!
 
-This theme uses TailwindCSS, so it's easy to customize.
-
-If you are interested in using this theme, you can get it on [GitHub](#).
-
-**Example Description:**
-
-Alex Lowkey is a professor of artificial intelligence at the Unknow AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.
+![Jeff](/images/1.jpeg)

@@ -3,11 +3,6 @@ title: "Markdown Cheat Sheet"
 draft: false
 date: 2022-08-27T09:16:45.000Z
 description: "A Python dictionary is like a JavaScript object – it’s a sequence of key:value pairs. So, you can create them like this:"
-categories:
-- Hello
-tags:
-- Hello
-- WhatsApp
 ---
 
 This Markdown cheat sheet **provides** a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for basic *syntax* and extended syntax.

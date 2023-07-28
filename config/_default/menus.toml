@@ -1,20 +1,26 @@
 [[main]]
     identifier = "about"
-    name = "About"
+    name = "📓 About"
     url = "/"
     weight = 1
 
 [[main]]
     identifier = "work"
-    name = "Work"
+    name = "👨‍💻 Work"
     url = "/work"
     weight = 2
 
 [[main]]
     identifier = "not-work"
-    name = "Not Work"
+    name = "💃 Not Work"
     url = "/not-work"
     weight = 3
+
+[[main]]
+    identifier = "say-hi"
+    name = "📬 Say hey "
+    url = "/contact"
+    weight = 4
 
 # [[main]]
 #     identifier = "categories"
