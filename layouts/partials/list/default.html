@@ -1,11 +1,41 @@
-<article class="flex flex-col gap-1">
-    <h1 class="text-xl font-bold hover:underline"> <a href=" {{ .Permalink }} ">{{ .Title }}</a></h1>
-    <div class="text-gray-600">
-    {{ if .Params.description }}
-    {{ .Params.description }}    
-    {{ else if .Summary  }}
-    {{ .Summary }}
-    {{ end }}
+<!-- <article class="flex flex-col">
+    <a href=" {{ .Permalink }} ">
+        <div class="list">
+            <h1 class="text-xl font-bold text-emerald-700 gap-8 hover:text-emerald-600">{{ .Title }}</h1>
+            <span class="text-gray-600">
+            {{ if .Params.description }}
+            {{ .Params.description }}    
+            {{ else if .Summary  }}
+            {{ .Summary }}
+            {{ end }}
+            </span>
+        </div>
+    </a>
+</article> -->
+
+
+
+
+<a href=" {{ .Permalink }} ">
+<article class="relative isolate flex flex-col gap-8 lg:flex-row hover:ring-1 inset-0 ring-inset ring-gray-900/10 rounded p-4">
+    <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
+      <img src="{{ .Params.cover }}" alt="Cover Image" class="absolute inset-0 h-full w-full rounded">
+      <div class="absolute inset-0 ring-1 ring-inset ring-gray-900/10 rounded"></div>
     </div>
-    <div class="mt-2"><a class="inline-flex  gap-2 text-sm font-semibold items-center text-emerald-700 hover:text-emerald-600" href="{{ .Permalink }}">Read This Article <span class="w-4 h-4 stroke-2">{{ partial "processor/svg" "arrow-right" }}</span> </a> </div>
-</article>
+    <div>
+      <div class="group relative max-w-xl">
+        <h3 class="mt-3 text-xl font-semibold leading-6 text-gray-900">
+            <span class="absolute inset-0"></span>
+            {{ .Title }}
+        </h3>
+        <p class="mt-3 text-lg text-gray-600">
+            {{ if .Params.description }}
+            {{ .Params.description }}    
+            {{ else if .Summary  }}
+            {{ .Summary }}
+            {{ end }}
+        </p>
+      </div>
+    </div>
+  </article>
+</a>
