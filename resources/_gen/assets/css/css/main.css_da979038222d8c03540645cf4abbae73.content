@@ -575,6 +575,39 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.container {
+  width: 100%;
+}
+@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+
+  .container {
+    max-width: 1536px;
+  }
+}
 .absolute {
   position: absolute;
 }
@@ -599,6 +632,9 @@ video {
 }
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+.ml-2 {
+  margin-left: 0.5rem;
 }
 .mt-2 {
   margin-top: 0.5rem;
@@ -627,6 +663,9 @@ video {
 .h-4 {
   height: 1rem;
 }
+.h-6 {
+  height: 1.5rem;
+}
 .h-full {
   height: 100%;
 }
@@ -636,6 +675,12 @@ video {
 .w-4 {
   width: 1rem;
 }
+.w-6 {
+  width: 1.5rem;
+}
+.w-full {
+  width: 100%;
+}
 .max-w-screen-md {
   max-width: 768px;
 }
@@ -644,6 +689,9 @@ video {
 }
 .flex-none {
   flex: none;
+}
+.flex-grow {
+  flex-grow: 1;
 }
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1055,28 +1103,44 @@ article footer {
   letter-spacing: .1em;
  }
 
- .hover\:bg-gray-200:hover {
+ .hidden-arrow {
+  visibility: hidden;
+}
+
+a:hover .hidden-arrow {
+  visibility: visible;
+}
+
+.group:hover .hidden-arrow {
+  visibility: visible;
+}
+
+.group:hover .hidden-arrow svg path {
+  stroke: #047857;
+}
+
+.hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
- .hover\:text-emerald-600:hover {
+.hover\:text-emerald-600:hover {
   --tw-text-opacity: 1;
   color: rgb(5 150 105 / var(--tw-text-opacity));
 }
 
- .hover\:text-gray-500:hover {
+.hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
- .hover\:ring-1:hover {
+.hover\:ring-1:hover {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
- @media (min-width: 640px) {
+@media (min-width: 640px) {
 
   .sm\:order-1 {
     order: 1;
@@ -1111,7 +1175,7 @@ article footer {
   }
 }
 
- @media (min-width: 1024px) {
+@media (min-width: 1024px) {
 
   .lg\:aspect-square {
     aspect-ratio: 1 / 1;
