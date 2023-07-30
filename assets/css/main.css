@@ -280,3 +280,11 @@ article footer {
  nav ul li a {
   letter-spacing: .1em;
  }
+
+.article-list-item :hover h3, .article-list-item :hover p{
+  color: rgb(4 120 87);
+}
+
+a:hover {
+  color: rgb(4 120 87);
+}

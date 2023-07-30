@@ -2,6 +2,8 @@
 title: "Jeff Orshalick | Now"
 header: "🕰️ Now"
 ---
+Here's some things I doing now (in the loosest sense of the word).
+
 \
 🔊 **Listening to**:\
 Small Hours by John Martyn\

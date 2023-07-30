@@ -2,11 +2,11 @@
 title: "👋 Hey,"
 class: "home"
 ---
-Thanks for stopping by. I've been working as a [product designer](https://linkedin.com/in/jefforshalick) for the past decade and have done a lot of other stuff along the way, too. I love learning, building, and collaborating.
+Thanks for stopping by 🙏. I've been working as a Product Designer 🏗️ for the past decade 🕙 and you can see some of [my work here](/work/) 👨‍💻. I also do things [outside of work stuff](/not-work/) 💃 that I sometimes[^1] share here.
 
 When I'm not spending time with my lovely family 👪, I enjoy eating at new restaraunts 🍜, playing board games 🎲, collecting watches ⌚, building keyboards ⌨️, building houses 🛠️, playing tennis 🎾, playing melee 🎮, and traveling 🧭.
 
-You can see some of [my work](/work/) or, if you're curious, you can take a look at some [not work stuff](/not-work/). Below are some pictures of me doing fun things!
+Below are some pictures of me doing fun things 🥳 with people I love ❤️!
 
 {{< rawhtml >}}
 <div id="images-wrapper">
@@ -30,3 +30,5 @@ You can see some of [my work](/work/) or, if you're curious, you can take a look
     <img src="/images/19.jpg" alt="picture 19">
 </div>
 {{< /rawhtml >}}
+
+[^1]: It's aspirational at the moment.

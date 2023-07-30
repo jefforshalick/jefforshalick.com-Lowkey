@@ -1,10 +1,10 @@
 <a href="{{ .Permalink }}" class="group flex items-center">
-    <article class="relative isolate flex flex-col gap-6 sm:flex-row hover:ring-1 inset-0 ring-inset ring-gray-900/10 rounded p-4 hover:text-emerald-700">
+    <article class="article-list-item relative isolate flex flex-col gap-6 sm:flex-row ring-1 inset-0 ring-inset ring-gray-900/10 rounded p-4">
         <div class="relative w-full sm:w-1/2 sm:w-32 sm:shrink-0">
         <div class="h-full w-full rounded overflow-hidden">
             <img src="{{ .Permalink }}{{ .Params.cover }}" alt="Cover Image" class="h-full w-full">
         </div>
-        <div class="absolute inset-0 ring-1 ring-inset ring-gray-900/10 rounded"></div>
+        <div class="absolute inset-0 rounded"></div>
         </div>
         <div class="flex flex-col flex-grow sm:pl-2">
         <div class="relative max-w-xl flex items-center">
@@ -28,10 +28,7 @@
         </div>
     </article>
 </a>
-  
-  
-  
-  
+
 
 
 <!-- Original list layout -->

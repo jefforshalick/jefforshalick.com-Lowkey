@@ -58,13 +58,25 @@
 # Social Media Configuration
 
 [[social]]
+    identifier = "Instagram"
+    name = "Instagram"
+    url = "https://www.instagram.com/jeffopalooza"
+    weight = 1
+
+[[social]]
+    identifier = "Dribbble"
+    name = "Dribbble"
+    url = "https://dribbble.com/jefforshalick"
+    weight = 2
+
+[[social]]
     identifier = "linkedin"
     name = "LinkedIn"
     url = "https://linkedin.com/in/jefforshalick"
-    weight = 1
+    weight = 3
 
 [[social]]
     identifier = "resume"
     name = "Resume"
     url = "/resume.pdf"
-    weight = 2
+    weight = 4
