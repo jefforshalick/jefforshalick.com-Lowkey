@@ -1,7 +1,7 @@
 <a href=" {{ .Permalink }} ">
 <article class="relative isolate flex flex-col gap-8 lg:flex-row hover:ring-1 inset-0 ring-inset ring-gray-900/10 rounded p-4">
     <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
-      <img src="{{ .Params.cover }}" alt="Cover Image" class="absolute inset-0 h-full w-full rounded">
+      <img src="{{ .Permalink }}{{ .Params.cover }}" alt="Cover Image" class="absolute inset-0 h-full rounded">
       <div class="absolute inset-0 ring-1 ring-inset ring-gray-900/10 rounded"></div>
     </div>
     <div>

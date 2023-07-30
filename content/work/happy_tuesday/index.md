@@ -1,8 +1,8 @@
 ---
-title: "Happy Monday"
+title: "Happy Tuesday"
 draft: false
 description: "As cofounder and founding designer, I developed our brand, style, and design system."
-cover: "cover.jpg"
+cover: "cover.png"
 ---
 
 ![](/img/hm/13.png)
