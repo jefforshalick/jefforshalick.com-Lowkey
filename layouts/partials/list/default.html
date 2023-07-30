@@ -1,35 +1,37 @@
 <a href="{{ .Permalink }}" class="group flex items-center">
-    <article class="relative isolate flex flex-col gap-8 lg:flex-row hover:ring-1 inset-0 ring-inset ring-gray-900/10 rounded p-4"> 
-      <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
+    <article class="relative isolate flex flex-col gap-6 sm:flex-row hover:ring-1 inset-0 ring-inset ring-gray-900/10 rounded p-4 hover:text-emerald-700">
+        <div class="relative w-full sm:w-1/2 sm:w-32 sm:shrink-0">
         <div class="h-full w-full rounded overflow-hidden">
-          <img src="{{ .Permalink }}{{ .Params.cover }}" alt="Cover Image" class="h-full w-full object-cover"> 
+            <img src="{{ .Permalink }}{{ .Params.cover }}" alt="Cover Image" class="h-full w-full">
         </div>
         <div class="absolute inset-0 ring-1 ring-inset ring-gray-900/10 rounded"></div>
-      </div>
-      <div class="flex flex-col flex-grow lg:pl-8">
+        </div>
+        <div class="flex flex-col flex-grow sm:pl-2">
         <div class="relative max-w-xl flex items-center">
-          <h3 class="mt-3 text-xl font-semibold leading-6 text-gray-900 flex items-center">
+            <h3 class="mt-1 text-xl font-semibold leading-6 text-gray-900 flex items-center">
             <span class="absolute inset-0"></span>
             {{ .Title }}
-            <span class="h-6 w-6 ml-2 hidden-arrow">
-              <svg class="h-full w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <span class="h-6 w-6 ml-2">
+                <svg class="h-full w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-              </svg>
+                </svg>
             </span>
-          </h3>
+            </h3>
         </div>
         <p class="mt-3 text-lg text-gray-600">
-          {{ if .Params.description }}
-          {{ .Params.description }}
-          {{ else if .Summary }}
-          {{ .Summary }}
-          {{ end }}
+            {{ if .Params.description }}
+            {{ .Params.description }}
+            {{ else if .Summary }}
+            {{ .Summary }}
+            {{ end }}
         </p>
-      </div>
+        </div>
     </article>
-  </a>
+</a>
   
-
+  
+  
+  
 
 
 <!-- Original list layout -->
