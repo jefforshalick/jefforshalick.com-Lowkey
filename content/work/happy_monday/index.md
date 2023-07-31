@@ -1,7 +1,7 @@
 ---
 title: "Happy Monday"
 draft: false
-description: "As cofounder and founding designer, I developed our brand, style, and design system."
+description: "Product design, Brand design, Office design "
 cover: "cover.jpg"
 ---
 

@@ -2,7 +2,7 @@
 title: "Jeff Orshalick | Now"
 header: "🕰️ Now"
 ---
-Here's some things I doing now (in the loosest sense of the word).
+Here's some things I'm doing *now* (now in the loosest sense).
 
 \
 🔊 **Listening to**:\

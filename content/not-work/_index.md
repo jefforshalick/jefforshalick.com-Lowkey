@@ -2,4 +2,4 @@
 title: "Jeff Orshalick | Not Work"
 header: "💃 Not Work"
 ---
-Here, you can find some things I've done from my time off-the-clock.
+When I get around to it, this is where I'll share some fun things I do outside of work.

@@ -2,4 +2,4 @@
 title: "Jeff Orshalick | Work"
 header: "👨‍💻 Work"
 ---
-Here, you can find some design work from my time on-the-clock as well as some personal design projects.
+I design and build products, experiences, branding, and more at a tactical feature level up to large-scale, complex systems. As a full-stack designer, I use discovery, research, and testing to inform my product and design decisions. By prioritizing outcomes over output and collaborating with cross-functional partners, I'm able to advocate for and produce engaging and intuitive experiences. Below, you can find some samples of design work I've done both on and off the clock.
