@@ -1,12 +1,16 @@
-<article class="flex flex-col gap-10">
+<article class="flex flex-col">
     <header class="flex flex-col gap-2">
         {{ partial "single/components/breadcrumbs" . }}
-        {{ partial "single/components/title/small" . }}
-        <div class="text-sm font-semibold text-gray-500 flex gap-3">
+        <div class="pt-5">
+            {{ partial "single/components/title/large" . }}
+        </div>
+        <div class="text-sm font-semibold text-gray-500 flex">
         {{ partial "single/components/metatag/time" . }}
         {{ partial "single/components/metatag/categories" . }}
         </div>
-        <img src="{{ .Params.cover }}" alt="Cover Image">
+        <!--<figure class="flex justify-center pt-5">
+            <img src="{{ .Params.cover }}" alt="Cover Image">
+        </figure>-->
     </header>
     <section class="content text-lg text-gray-800">
     {{ .Content | emojify }}

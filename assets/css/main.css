@@ -136,6 +136,10 @@
       @apply text-xl text-gray-500 px-10 pt-10 pb-5 mt-7 mb-5 rounded-lg border
     }
 
+    .content blockquote a{
+      font-weight: 500;
+    }
+
     .content ol, .content ul {
       @apply grid gap-2 mb-5 ml-6;
     }

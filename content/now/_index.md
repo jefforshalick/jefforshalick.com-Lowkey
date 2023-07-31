@@ -2,10 +2,11 @@
 title: "Jeff Orshalick | Now"
 header: "🕰️ Now"
 ---
-Here's some things I'm doing *now* (now in the loosest sense).
+Here are some things I'm doing these days.
 
 \
 🔊 **Listening to**:\
+Belly by Bells Atlas\
 Small Hours by John Martyn\
 \
 📚 **Reading**:\
