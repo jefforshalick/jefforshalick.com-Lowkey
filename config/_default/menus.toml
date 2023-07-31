@@ -77,13 +77,14 @@
     weight = 3
 
 [[social]]
-    identifier = "email"
-    name = "Email"
-    url = "mailto:hi@jefforshalick.com"
-    weight = 4
-
-[[social]]
     identifier = "resume"
     name = "Resume"
     url = "/resume.pdf"
+    weight = 4
+
+[[social]]
+    identifier = "email"
+    name = "Email"
+    url = "mailto:hi@jefforshalick.com"
     weight = 5
+
