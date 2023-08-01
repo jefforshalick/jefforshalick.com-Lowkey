@@ -1101,7 +1101,11 @@ a:hover {
 }
 
 .article-list-item:hover svg{
-  margin-left: 1px;
+  margin-left: 2px;
+}
+
+#arrow-shift:hover svg{
+  transform: translateX(-2px);
 }
 
 .hover\:scroll-auto:hover {

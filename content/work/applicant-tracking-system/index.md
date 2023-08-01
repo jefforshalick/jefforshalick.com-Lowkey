@@ -2,7 +2,7 @@
 title: "Applicant Tracking System"
 draft: false
 date: 2022-09-01
-description: "Discovery & Research, Product Design, Brand & Visual Identity"
+description: "Zero-to-One, Discovery & Research, Product Design, Brand & Visual Identity, Design System"
 cover: "cover.jpg"
 ---
 More details to come but in the meantime, here's some UI.
