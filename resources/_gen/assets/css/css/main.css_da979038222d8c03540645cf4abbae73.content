@@ -575,6 +575,9 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.fixed {
+  position: fixed;
+}
 .absolute {
   position: absolute;
 }
@@ -620,6 +623,9 @@ video {
 }
 .grid {
   display: grid;
+}
+.hidden {
+  display: none;
 }
 .h-20 {
   height: 5rem;
@@ -764,6 +770,9 @@ video {
 }
 .pb-14 {
   padding-bottom: 3.5rem;
+}
+.pt-10 {
+  padding-top: 2.5rem;
 }
 .pt-16 {
   padding-top: 4rem;
