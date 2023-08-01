@@ -4,7 +4,7 @@
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         {{- partial "head.html" . -}}
     </head>
-    <body class="max-w-screen-md px-10 mx-auto">
+    <body class="max-w-screen-md px-10 mx-auto min-h-screen flex flex-col">
         {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}

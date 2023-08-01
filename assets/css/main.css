@@ -217,7 +217,7 @@
       @apply gap-y-2;
     }
 }
-
+/* 
 body{
   min-height: 100vh;
   display: flex;
@@ -272,7 +272,7 @@ article footer {
  time {
   display: none;
  }
-
+ 
  nav ul li a {
   letter-spacing: .1em;
  }
@@ -291,4 +291,4 @@ a:hover {
 
 #arrow-shift:hover svg{
   transform: translateX(-2px);
-}
+} */
