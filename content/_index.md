@@ -4,7 +4,7 @@ class: "home"
 ---
 Thanks for stopping by 🙏. I've been working as a Product Designer 🏗️ for the past decade 🕙 and you can see some of [my work here](/work/) 👨‍💻. I also do things [outside of work](/not-work/) 💃 that I sometimes share.
 
-When I'm not spending time with my lovely family 👪, I enjoy eating at new restaraunts 🍜, playing board games 🎲, collecting watches ⌚, building keyboards ⌨️, building houses 🛠️, playing tennis 🎾, playing melee 🎮, and traveling 🧭.
+When I'm not spending time with my lovely family 👪, I enjoy eating at new restaurants 🍜, playing board games 🎲, collecting watches ⌚, building keyboards ⌨️, building houses 🛠️, playing tennis 🎾, playing melee 🎮, and traveling 🧭.
 
 Below are some pictures of me doing fun things 🥳 with people I love ❤️!
 
