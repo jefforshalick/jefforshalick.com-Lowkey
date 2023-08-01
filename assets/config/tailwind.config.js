@@ -17,11 +17,11 @@ module.exports = {
     },
     plugins: [],
     variants: ['group-hover'],
-    purge: {
-      content: ["./hugo_stats.json"],
-      defaultExtractor: (content) => {
-        let els = JSON.parse(content).htmlElements;
-        return els.tags.concat(els.classes, els.ids);
-      },
+    // purge: {
+    //   content: ["./hugo_stats.json"],
+    //   defaultExtractor: (content) => {
+    //     let els = JSON.parse(content).htmlElements;
+    //     return els.tags.concat(els.classes, els.ids);
+    //   },
+    // },
   }
-  

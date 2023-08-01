@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default `en` }}" class="scroll-smooth">
     <head>
-        <!--<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="/assets/css/main.css">-->
-        {{$css := resources.Get "css/tailwind.css" | resources.PostCSS}}
-        {{if (eq (getenv "NODE_ENV") "production")}}
-        {{$css = $css | minify | fingerprint | resources.PostProcess}}
-        {{end}}
+        <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+        <!--<link rel="stylesheet" type="text/css" href="assets/css/main.css">-->
         {{- partial "head.html" . -}}
     </head>
     <body class="max-w-screen-md px-10 mx-auto">
