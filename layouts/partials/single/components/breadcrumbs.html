@@ -1,5 +1,5 @@
 <ul id="breadcrumbs">
     {{if .Parent }}
-    <div class="mt-2 hover:-translate-x-2"><a class="inline-flex gap-2 text-sm font-semibold items-center text-emerald-700 hover:text-emerald-600" id="arrow-shift" href="{{ .Parent.Permalink }}"><span class="w-4 h-4 stroke-2 arrow-shift arrow">{{ partial "processor/svg" "arrow-left" }}</span>Back</a></div>
+    <div class="mt-2"><a class="inline-flex gap-2 text-sm font-semibold items-center text-emerald-700 hover:text-emerald-600" href="{{ .Parent.Permalink }}"><span class="w-4 h-4 stroke-2">{{ partial "processor/svg" "arrow-left" }}</span>Back</a></div>
     {{- end }}
 </ul>
