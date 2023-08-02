@@ -9,7 +9,7 @@ When I'm not spending time with my lovely family 👪, I enjoy eating at new res
 Below are some pictures of me doing fun things 🥳 with people I love ❤️!
 
 {{< rawhtml >}}
-<div class= "grid-container">
+<div class= "grid-container pt-5">
 <div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-4">
     <div class="grid gap-4">
         <div class="flex justify-center">
