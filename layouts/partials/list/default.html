@@ -1,13 +1,13 @@
-<a href="{{ .Permalink }}" class="flex items-center hover:opacity-50">
+<a href="{{ .Permalink }}" class="flex items-center group">
     <article class="article-list-item relative isolate flex flex-col gap-6 sm:flex-row ring-1 inset-0 ring-inset ring-gray-900/10 rounded p-4 w-full">
-        <div class="relative w-full sm:w-1/2 sm:w-32 sm:shrink-0 max-height">
+        <div class="relative w-full sm:w-1/2 sm:w-32 sm:shrink-0 max-height group-hover:opacity-50">
             <div class="h-full w-full rounded overflow-hidden ring-gray-900/10 ring-1">
                 <img src="{{ .Permalink }}{{ .Params.cover }}" alt="Cover Image">
             </div>
         </div>
         <div class="flex flex-col flex-grow sm:pl-2">
             <div class="relative max-w-xl flex items-center">
-                <h3 class="mt-1 text-xl font-semibold leading-6 text-gray-900 flex items-center">
+                <h3 class="mt-1 text-xl font-semibold leading-6 text-gray-900 flex items-center group-hover:text-emerald-700">
                 {{ .Title }}
                 <span class="h-6 w-6 ml-2">
                     <svg class="h-full w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -16,7 +16,7 @@
                 </span>
                 </h3>
             </div>
-            <p class="mt-2 text-base text-gray-600">
+            <p class="mt-2 text-base text-gray-600 group-hover:text-emerald-700">
                 {{ if .Params.description }}
                 {{ .Params.description }}
                 {{ else if .Summary }}
