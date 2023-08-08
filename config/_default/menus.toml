@@ -1,8 +1,8 @@
-# [[main]]
-#     identifier = "home"
-#     name = "🏠 Home"
-#     url = "/"
-#     weight = 1
+[[main]]
+    identifier = "home"
+    name = "🏠 Home"
+    url = "/"
+    weight = 1
 
 [[main]]
     identifier = "work"
@@ -22,41 +22,14 @@
     url = "/now"
     weight = 4
 
-# [[main]]
-#     identifier = "about"
-#     name = "📓 About"
-#     url = "/"
-#     weight = 1
-
-
-
-# [[main]]
-#     identifier = "say-hi"
-#     name = "📬 Say hey"
-#     url = "/contact"
-#     weight = 4
-
-# [[main]]
-#     identifier = "categories"
-#     name = "Categories"
-#     url = "/categories"
-#     weight = 4
-
-# [[main]]
-#     identifier = "tags"
-#     name = "Tags"
-#     url = "/tags"
-#     weight = 5
-
-# [[main]]
-#     identifier = "linkedin"
-#     name = "LinkedIn"
-#     url = "https://linkedin.com/in/jefforshalick"
-#     weight = 5
+[[main]]
+    identifier = "linked-in"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/jefforshalick"
+    weight = 5
 
 
 # Social Media Configuration
-
 
 [[social]]
     identifier = "Instagram"
@@ -83,8 +56,8 @@
     weight = 4
 
 [[social]]
-    identifier = "email"
-    name = "Email"
+    identifier = "contact"
+    name = "Contact"
     url = "mailto:hi@jefforshalick.com"
     weight = 5
 
