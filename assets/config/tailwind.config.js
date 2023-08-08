@@ -2,20 +2,30 @@
 module.exports = {
     darkMode: 'class',
     content: [
-      "./themes/**/layouts/**/*.html",
-      "./content/**/layouts/**/*.html",
-      "./layouts/**/*.html",
-      "./content/**/*.html",
-      "./content/**/*.md"
+        "./themes/**/layouts/**/*.html",
+        "./content/**/layouts/**/*.html",
+        "./layouts/**/*.html",
+        "./content/**/*.html",
+        "./content/**/*.md"
     ],
     theme: {
-      extend: {
-        fontFamily: {
-          'sans' : ['"Inter"', '-apple-system' , 'BlinkMacSystemFont', 'avenir next', 'avenir', 'segoe ui', 'helvetica neue', 'helvetica', 'Cantarell', 'Ubuntu', 'roboto', 'noto', 'arial', 'sans-serif'],
+        extend: {
+            fontFamily: {
+                'sans': ['"Inter"', '-apple-system', 'BlinkMacSystemFont', 'avenir next', 'avenir', 'segoe ui', 'helvetica neue', 'helvetica', 'Cantarell', 'Ubuntu', 'roboto', 'noto', 'arial', 'sans-serif'],
+            },
         },
-      },
     },
-    plugins: [],
+    plugins: [
+        function ({ addUtilities }) {
+            addUtilities({
+                '.full-viewport-width': {
+                    marginLeft: 'calc(50% - 50vw)',
+                    marginRight: 'calc(50% - 50vw)',
+                    width: '100vw'
+                },
+            })
+        },
+    ],
     variants: ['group-hover'],
     // purge: {
     //   content: ["./hugo_stats.json"],
@@ -24,4 +34,4 @@ module.exports = {
     //     return els.tags.concat(els.classes, els.ids);
     //   },
     // },
-  }
+}

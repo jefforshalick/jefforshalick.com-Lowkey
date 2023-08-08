@@ -5,7 +5,7 @@ date: 2022-12-01
 description: "Zero-to-One, Discovery & Research, Product Design, Web Design"
 cover: "cover.jpg"
 ---
-![Header image](1.jpg)
+{{< img-full-width src="1.jpg">}}
 
 >[Secureframe](https://secureframe.com/) helps streamline compliance efforts across different compliance frameworks including SOC 2, ISO 27001, and HIPAA.\
 \
@@ -16,13 +16,13 @@ My role on this project was that of a **full-stack designer**; conducting discov
 
 ---
 ## Understanding the why and what
-We noticed that we kept losing deals to our competitors when it was down to us and another compliance platform. We dug in and noticed that a key feature that we were missing and that our competition had was a way for our customers to publish their compliance achievements and stance—a.k.a. a trust center. One of our very direct competitors, [Vanta](https://www.vanta.com/), even purchased a fairly prominent player in the space, [Trustpage](https://trustpage.com/), while we were building an offering of our own. This was a pretty strong signal that our competition was investing in this product feature and validated our efforts in building it out ourselves. 
+We noticed that we kept losing deals to our competitors when it was down to us and another compliance platform. We dug in and noticed that a key feature that we were missing and that our competition had was a way for our customers to publish their compliance achievements and stance—a.k.a. a trust center. One of our very direct competitors, [Vanta](https://www.vanta.com/), even purchased a fairly prominent player in the space, [Trustpage](https://trustpage.com/), while we were building an offering of our own. This was a pretty strong signal that our competition was investing in this product feature and validated our efforts in building it out ourselves.
 
 ![Competition](2.jpg)
 
 ## The pieces of the puzzle
 In order for this product to be successful, we needed to make sure we had all these pieces, even for our MVP release:
-1. Admin for our customers to manage their trust center design and document requests  
+1. Admin for our customers to manage their trust center design and document requests
 2. Publicly accessible trust center page
 3. Ability to request documents on the public trust center
 

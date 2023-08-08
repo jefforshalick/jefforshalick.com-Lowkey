@@ -1,0 +1,8 @@
+{{/* Image Resources */}}
+{{ $img := .Page.Resources.GetMatch (printf "%s" (.Get "src" | safeURL ))}}
+{{ $alt := .Get "alt"}}
+
+{{/* Image */}}
+<figure class="lg:full-viewport-width">
+    <img src="{{ $img.RelPermalink }}" {{ with $alt }}alt="{{ . }}" {{ end }} class="lg:max-w-6xl mx-auto">
+</figure>
