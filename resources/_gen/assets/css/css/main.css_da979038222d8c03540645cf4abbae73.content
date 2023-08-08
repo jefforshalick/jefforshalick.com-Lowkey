@@ -789,6 +789,9 @@ video {
 .pb-14 {
   padding-bottom: 3.5rem;
 }
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -1137,5 +1140,17 @@ span.begin-task-list + ul {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1024px) {
+
+  .lg\:max-w-6xl {
+    max-width: 72rem;
+  }
+
+  .lg\:full-viewport-width {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    width: 100vw;
   }
 }
