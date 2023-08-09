@@ -2,12 +2,12 @@
 title: "Checkout Mobile App"
 draft: false
 date: 2022-08-01
-description: "Zero-to-One, Research, Product Design, Illustration"
+description: "Zero-to-One, Research, Product Design, Mobile App, Illustration"
 cover: "cover.jpg"
 ---
 More details to come but in the meantime, here's some UI.
 
-![image](1.jpg)
+![image](cover.jpg)
 
 ![image](2.jpg)
 
