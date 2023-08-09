@@ -6,8 +6,6 @@ description: "Collecting, modifying, and wearing watches"
 cover: "cover.jpg"
 ---
 
-
-
 ![](cover.jpg)
 
 ![](1.jpg)
