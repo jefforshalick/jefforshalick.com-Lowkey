@@ -7,6 +7,8 @@ cover: "cover.jpg"
 ---
 More details to come but in the meantime, here's some UI.
 
+![image](cover.jpg)
+
 ![image](1.jpg)
 
 ![image](2.jpg)
@@ -19,7 +21,6 @@ More details to come but in the meantime, here's some UI.
 
 ![image](6.jpg)
 
-![image](7.jpg)
 
 ![image](8.jpg)
 
