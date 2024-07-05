@@ -5,7 +5,7 @@ date: 2022-10-01
 description: "Discovery & Research, Product Design, Design System"
 cover: "cover.jpg"
 ---
-More details to come but in the meantime, here's some UI.
+More details to come but in the meantime, here's a video of the network visualizer in action.
 
 <!-- ![image](cover.jpg) -->
 
