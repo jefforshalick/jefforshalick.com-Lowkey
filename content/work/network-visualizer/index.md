@@ -7,7 +7,7 @@ cover: "cover.jpg"
 ---
 More details to come but in the meantime, here's some UI.
 
-![image](cover.jpg)
+![image](1.gif)
 
 ![image](2.jpg)
 
