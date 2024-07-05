@@ -7,11 +7,11 @@ cover: "cover.jpg"
 ---
 More details to come but in the meantime, here's some UI.
 
-![image](cover.jpg)
+<!-- ![image](cover.jpg) -->
 
 ![image](1.gif)
 
-![image](2.jpg)
+<!-- ![image](2.jpg)
 
 ![image](3.jpg)
 
@@ -31,4 +31,4 @@ More details to come but in the meantime, here's some UI.
 
 ![image](11.jpg)
 
-![image](12.jpg)
+![image](12.jpg) -->
