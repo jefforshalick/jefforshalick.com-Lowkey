@@ -2,7 +2,7 @@
 title: "👋 Hey,"
 class: "home"
 ---
-Thanks for stopping by 🙏. I've been working as a Product Designer 🏗️ for the past decade 🕙 and you can see some of [my work here](/work/) 👨‍💻. I also do things [outside of work](/not-work/) 💃 that I sometimes share.
+Thanks for stopping by 🙏. I've been working as a Product Designer 🏗️ for the past decade 🕙 and you can see some of [my work here](/work/) 👨‍💻.
 
 When I'm not spending time with my lovely family 👪, I enjoy eating at new restaurants 🍜, playing board games 🎲, collecting watches ⌚, building keyboards ⌨️, building houses 🛠️, playing tennis 🎾, playing melee 🎮, and traveling 🧭.
 
