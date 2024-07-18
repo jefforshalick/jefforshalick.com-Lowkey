@@ -1,17 +1,17 @@
 [[main]]
     identifier = "home"
-    name = "About me"
+    name = "About"
     url = "/"
     weight = 1
 
 [[main]]
     identifier = "work"
-    name = "Work samples"
+    name = "Work"
     url = "/work"
     weight = 2
 
 [[main]]
-    identifier = "linked-in"
+    identifier = "resume"
     name = "Resume"
     url = "/resume.pdf"
     weight = 3
