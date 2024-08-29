@@ -2,13 +2,13 @@
     identifier = "home"
     name = "About"
     url = "/"
-    weight = 1
+    weight = 2
 
 [[main]]
     identifier = "work"
     name = "Work"
     url = "/work"
-    weight = 2
+    weight = 1
 
 [[main]]
     identifier = "resume"
