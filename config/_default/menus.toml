@@ -1,14 +1,14 @@
 [[main]]
     identifier = "home"
     name = "About"
-    url = "/about"
-    weight = 2
+    url = "/"
+    weight = 1
 
 [[main]]
     identifier = "work"
     name = "Work"
-    url = "/"
-    weight = 1
+    url = "/work"
+    weight = 2
 
 [[main]]
     identifier = "resume"
