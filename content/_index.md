@@ -22,7 +22,7 @@ class: "home"
 <div class="flex flex-col md:block">
     <div class="order-2 md:float-right sm:w-72 mx-auto md:ml-4 mb-4 pt-4 md:pt-2">
     <a href="/photos">
-        <img src="jeff-and-child.jpg" alt="Jeff and child" class="w-full rounded overflow-hidden ring-emerald-800 ring-1 cursor-none">
+        <img src="jeff-and-child.jpg" alt="Jeff and child" class="w-full rounded overflow-hidden ring-emerald-800 ring-1 cursor-default active:scale-99 hover:ring-2 active:ring-1 transition-all duration-150">
     </a>
 </div>
     <div class="order-1">
