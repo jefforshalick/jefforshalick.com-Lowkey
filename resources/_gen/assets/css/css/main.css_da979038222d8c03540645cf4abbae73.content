@@ -817,9 +817,9 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(4 120 87 / var(--tw-border-opacity));
 }
-.bg-emerald-900 {
+.bg-emerald-700 {
   --tw-bg-opacity: 1;
-  background-color: rgb(6 78 59 / var(--tw-bg-opacity));
+  background-color: rgb(4 120 87 / var(--tw-bg-opacity));
 }
 .bg-gray-100 {
   --tw-bg-opacity: 1;
@@ -1022,8 +1022,8 @@ video {
 .duration-150 {
   transition-duration: 150ms;
 }
-.duration-300 {
-  transition-duration: 300ms;
+.duration-200 {
+  transition-duration: 200ms;
 }
 .duration-500 {
   transition-duration: 500ms;

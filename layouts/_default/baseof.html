@@ -3,9 +3,28 @@
     <head>
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         {{- partial "head.html" . -}}
+
+        <!-- HTML Meta Tags -->
+        <title>Jeff Orshalick</title>
+        <meta name="description" content="The work and times of Jeff Orshalick">
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://www.jefforshalick.com">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Jeff Orshalick">
+        <meta property="og:description" content="The work and times of Jeff Orshalick">
+        <meta property="og:image" content="img/social.jpg">
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="jefforshalick.com">
+        <meta property="twitter:url" content="https://www.jefforshalick.com">
+        <meta name="twitter:title" content="Jeff Orshalick">
+        <meta name="twitter:description" content="The work and times of Jeff Orshalick">
+        <meta name="twitter:image" content="img/social.jpg">
     </head>
     <body class="max-w-screen-md px-10 mx-auto min-h-screen flex flex-col bg-custom">
-        <div id="notification-bar" class="hidden fixed top-0 left-0 right-0 bg-emerald-900 text-beige text-center py-3 z-50 transition-all duration-300 ease-in-out">
+        <div id="notification-bar" class="hidden fixed top-0 left-0 right-0 bg-emerald-700 text-beige text-center py-3 z-50 transition-all duration-200 ease-in-out">
             <strong>hi@jefforshalick.com</strong> copied to clipboard
         </div>
         <div class="w-full border-t-[6px] border-emerald-700 absolute left-0 top-0"></div>
