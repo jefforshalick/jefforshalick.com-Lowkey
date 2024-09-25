@@ -34,7 +34,7 @@ class: "home"
         <p>
         I'm currently based in Phoenix, AZ with my wife and daughter who both bring me an immense amount of joy. I hope this site gives you some insight into who I am, how I work, and what I can do. I put a lot of time, care, and learning into building it so I'm happy you were able to stop by.
         </p>
-        <p>I enjoy chatting about passions, experiences, the future, watches, keyboards, and more! So please feel free to say hi; <a href="mailto:hi@jefforshalick.com">send me an email</a> and share something fun about yourself.
+        <p>I enjoy chatting about passions, experiences, the future, watches, keyboards, and more! <a href="mailto:hi@jefforshalick.com">Send me an email</a> to share something fun about yourself or just say hey.
         </p>
         
     </div>
