@@ -810,8 +810,8 @@ video {
 .border {
   border-width: 1px;
 }
-.border-t-4 {
-  border-top-width: 4px;
+.border-t-\[6px\] {
+  border-top-width: 6px;
 }
 .border-emerald-700 {
   --tw-border-opacity: 1;
