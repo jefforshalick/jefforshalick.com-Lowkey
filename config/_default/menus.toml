@@ -24,23 +24,21 @@
 
 [[main]]
     identifier = "resume"
-    name = "Resume ↗"
-    url = "/resume.pdf"
+    name = "Resume"
+    url = "/resume"
     weight = 4
-    [main.params]
-        target = "_blank"
 
 [[main]]
     identifier = "linked-in"
-    name = "LinkedIn ↗"
+    name = "LinkedIn"
     url = "https://www.linkedin.com/in/jefforshalick"
     weight = 5
     [main.params]
         target = "_blank"
 
 [[main]]
-    identifier = "email"
-    name = "Email"
+    identifier = "contact"
+    name = "Contact"
     url = "mailto:hi@jefforshalick.com"
     weight = 6
     
@@ -66,23 +64,17 @@
     identifier = "linkedin"
     name = "LinkedIn"
     url = "https://linkedin.com/in/jefforshalick"
-    weight = 1
-    
+    weight = 2
+
 [[social]]
     identifier = "Instagram"
     name = "Instagram"
     url = "https://www.instagram.com/jeffopalooza"
-    weight = 2
-
-[[social]]
-    identifier = "resume"
-    name = "Resume"
-    url = "/resume.pdf"
     weight = 3
 
 [[social]]
-    identifier = "email"
-    name = "Email"
+    identifier = "Contact"
+    name = "Contact"
     url = "mailto:hi@jefforshalick.com"
     weight = 4
 

@@ -5,8 +5,18 @@ class: "home"
 
 {{< rawhtml >}}
 
-<div class="font-semibold text-2xl mb-4 mt-2 pb-4 text-emerald-900 pb-20">
+<div class="font-semibold text-2xl pb-8 sm:pb-16 text-emerald-900">
     I’m Jeff – a product designer and leader, specializing in building and scaling high-growth enterprise SaaS products and design teams.
+</div>
+
+<div class="w-full my-8 pb-8 sm:pb-16">
+    <svg class="w-full h-8" viewBox="0 0 3000 60" xmlns="http://www.w3.org/2000/svg" fill="none">
+        <path d="M0 40 L100 0 L200 40 L300 0 L400 40 L500 0 L600 40 L700 0 L800 40 L900 0 L1000 40 L1100 0 L1200 40 L1300 0 L1400 40 L1500 0 L1600 40 L1700 0 L1800 40 L1900 0 L2000 40 L2100 0 L2200 40 L2300 0 L2400 40 L2500 0 L2600 40 L2700 0 L2800 40 L2900 0 L3000 40" 
+              stroke="#047857" 
+              stroke-width="12" 
+              stroke-linecap="round" 
+              stroke-linejoin="round"/>
+    </svg>
 </div>
 
 <div class="flex flex-col md:block">

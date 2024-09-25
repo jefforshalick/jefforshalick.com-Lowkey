@@ -216,11 +216,19 @@
     .tags-list {
       @apply gap-y-2;
     }
+
+    .translate-y-1 {
+      transform: translateY(1px);
+    }
+    
+    .-translate-y-1 {
+      transform: translateY(-1px);
+    }
 }
 
 p a {
   transition-duration: 150ms;
-  transition-timing-function: ease-out;
+  transition-timing-function: ease-out !important;
   font-weight: 400 !important;
   color: #047857 !important;
 }
@@ -248,6 +256,4 @@ a:hover {
 h6 {
   margin-bottom: 4px !important;
   color: #064e3bb3 !important;
-
-
 }
