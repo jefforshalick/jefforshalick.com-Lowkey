@@ -3,6 +3,6 @@
 {{ $alt := .Get "alt"}}
 
 {{/* Image */}}
-<figure class="lg:full-viewport-width pb-5">
-    <img src="{{ $img.RelPermalink }}" {{ with $alt }}alt="{{ . }}" {{ end }} class="lg:max-w-6xl mx-auto">
+<figure class="lg:full-viewport-width pb-10 lg:pl-4">
+    <img src="{{ $img.RelPermalink }}" {{ with $alt }}alt="{{ . }}" {{ end }} class="lg:max-w-5xl mx-auto">
 </figure>

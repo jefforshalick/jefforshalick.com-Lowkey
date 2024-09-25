@@ -4,11 +4,12 @@
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         {{- partial "head.html" . -}}
     </head>
-    <body class="max-w-screen-md px-10 mx-auto min-h-screen flex flex-col">
-        {{- partial "header.html" . -}}
+    <body class="max-w-screen-md px-10 mx-auto min-h-screen flex flex-col bg-custom">
+        <div class="w-full border-t-4 border-emerald-700 absolute left-0 top-0"></div>
+        {{- partial "header.html" . }}
         <div id="content">
-        {{- block "main" . }}{{- end }}
+            {{- block "main" . }}{{- end }}
         </div>
-        {{- partial "footer.html" . -}}
+        {{- partial "footer.html" . }}
     </body>
 </html>

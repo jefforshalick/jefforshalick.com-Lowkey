@@ -1,3 +1,16 @@
 {{ $avatar := resources.GetMatch .Site.Params.avatar }}
-{{ $tiny := ($avatar.Fill "80x80 q90") }}
-<figure class="flex-none w-20 h-20 rounded-full overflow-hidden" ><a href="{{ .Site.BaseURL }}"><img srcset="{{- with $tiny.RelPermalink -}}{{.}} 80w{{- end -}}" src="{{ $avatar.RelPermalink }}" width="{{ $avatar.Width }}" height="{{ $avatar.Height }}" alt="{{ .Site.Title }}"></a></figure>
+{{ $tiny := ($avatar.Resize "80x q90") }}
+{{ $medium := ($avatar.Resize "160x q90") }}
+{{ $large := ($avatar.Resize "320x q90") }}
+
+<figure class="flex-none w-20 h-20 rounded-full overflow-hidden">
+  <a href="{{ .Site.BaseURL }}">
+    <img 
+      srcset="{{ $tiny.RelPermalink }} 80w, {{ $medium.RelPermalink }} 160w, {{ $large.RelPermalink }} 320w"
+      sizes="(max-width: 80px) 80px, (max-width: 160px) 160px, 320px"
+      src="{{ $medium.RelPermalink }}" 
+      width="160" 
+      height="160" 
+      alt="{{ .Site.Title }}">
+  </a>
+</figure>

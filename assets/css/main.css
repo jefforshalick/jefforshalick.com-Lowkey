@@ -217,3 +217,33 @@
       @apply gap-y-2;
     }
 }
+
+p a {
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+  font-weight: 400 !important;
+  color: #047857 !important;
+}
+
+p a:hover {
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+  color: #047857 !important;
+}
+
+a:hover {
+  color: #047857;
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+}
+
+.bg-custom {
+  background-color: #F6F0EB;
+}
+
+h6 {
+  margin-bottom: 4px !important;
+  color: #064e3bb3 !important;
+
+
+}

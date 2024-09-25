@@ -1,0 +1,9 @@
+{{/* Image Resources */}}
+{{ $img := .Page.Resources.GetMatch (printf "%s" (.Get "src" | safeURL ))}}
+{{ $alt := .Get "alt"}}
+
+<div class="relative mt-12 px-10 w-screen" style="background-color: #ffffff; margin-left: calc(-50vw + 50%);">
+    <div class="content-wrapper mx-auto pt-12 pb-12" style="max-width: 688px;">
+        {{ .Inner | markdownify }}
+    </div>
+  </div>

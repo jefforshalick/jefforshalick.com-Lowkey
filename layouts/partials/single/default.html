@@ -1,22 +1,166 @@
 <article class="flex flex-col">
-    <header class="flex flex-col gap-2">
+    <header class="flex flex-col gap-0">
         {{ partial "single/components/breadcrumbs" . }}
-        <div class="pt-5">
+        <div class="mt-10">
+            <h3 class="text-large font-semibold text-emerald-900/70">
+                {{ .Params.role }}
+                <span class="font-bold">
+                    {{ if .Params.company }}
+                        @ {{ .Params.company }}
+                    {{ end }}
+                </span>
+            </h3>
             {{ partial "single/components/title/large" . }}
         </div>
-        <div class="text-sm font-semibold text-gray-500 flex">
-        {{ partial "single/components/metatag/time" . }}
-        {{ partial "single/components/metatag/categories" . }}
+        <div class="pt-4 text-sm font-semibold flex">
+            {{ partial "single/components/metatag/time" . }}
+            {{ partial "single/components/metatag/categories" . }}
         </div>
-        <!--<figure class="flex justify-center pt-5">
-            <img src="{{ .Params.cover }}" alt="Cover Image">
-        </figure>-->
     </header>
-    <section class="content text-lg text-gray-800 pt-5">
-    {{ .Content | emojify }}
+
+    <section class="content text-lg text-gray-800 mt-4">
+        {{ .Content | emojify }}
     </section>
+
     {{ partial "single/components/comments/comments" . }}
-    <footer>
+
+    <footer class="mt-12">
         {{ partial "single/components/metatag/tags" . }}
+
+        <!-- Check if there are related posts -->
+        {{ $currentPage := . }}
+        {{ $currentSection := .Section }}
+
+        <!-- Filter posts from the current section, excluding the current post -->
+        {{ $relatedPosts := where (where .Site.RegularPages "Section" $currentSection) "Permalink" "ne" $currentPage.Permalink }}
+
+        {{ if gt (len $relatedPosts) 0 }}
+        <section class="related-posts mt-8">
+            <h2 class="text-2xl font-medium mb-2 pb-6 text-emerald-900">More
+                {{ if eq .Section "ux-design" }}
+                UX Design Work
+                {{ else if eq .Section "architecture" }}
+                Architecture & Construction Work
+            {{ end }}
+                <a href="{{ .Site.BaseURL }}{{ .Section }}/" class="text-emerald-700 hover:text-emerald-600 text-sm ml-2 font-medium whitespace-nowrap">
+                    See all
+                </a>
+            </h2>
+
+            <!-- Shows links to other posts -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-40 sm:max-w-none max-w-xs">
+                {{ $current := . }}
+                {{ $section := .Section }} <!-- Get the current section (e.g., "blog") -->
+                {{ $allPosts := (where $.Site.RegularPages "Section" $section) }} <!-- Filter posts by the current section -->
+                {{ $allPosts = sort $allPosts "Date" "desc" }} <!-- Sort posts by date, newest to oldest -->
+                {{ $totalPosts := len $allPosts }} <!-- Define total number of posts in the section -->
+            
+                <!-- Variables to store previous posts -->
+                {{ $prev1 := "" }}
+                {{ $prev2 := "" }}
+                {{ $currentIndex := -1 }}
+            
+                <!-- Loop through all posts to find the current post index -->
+                {{ range $i, $post := $allPosts }}
+                    {{ if eq $post.Permalink $current.Permalink }}
+                        {{ $currentIndex = $i }}
+                    {{ end }}
+                {{ end }}
+            
+                <!-- Determine previous and second previous posts in the correct order -->
+                {{ if lt $currentIndex (sub $totalPosts 1) }} <!-- If not the oldest post -->
+                    {{ $prev1 = (index $allPosts (add $currentIndex 1)) }} <!-- Previous Post -->
+                {{ else }} <!-- If the current post is the oldest (last in the array) -->
+                    {{ $prev1 = (index $allPosts 0) }} <!-- Newest Post as Previous -->
+                {{ end }}
+            
+                <!-- Determine the second previous post based on conditions -->
+                {{ if lt $currentIndex (sub $totalPosts 2) }} <!-- If not the second oldest post -->
+                    {{ $prev2 = (index $allPosts (add $currentIndex 2)) }} <!-- Second Previous Post -->
+                {{ else if eq $prev2 "" }} <!-- If only one post behind, wrap around -->
+                    {{ if eq $currentIndex (sub $totalPosts 1) }} <!-- If current is the oldest -->
+                        {{ $prev2 = (index $allPosts 1) }} <!-- Second Newest Post as Second Previous -->
+                    {{ else }}
+                        {{ $prev2 = (index $allPosts 0) }} <!-- Newest Post as Second Previous -->
+                    {{ end }}
+                {{ end }}
+            
+                <!-- Display the first link (previous post) -->
+                {{ if $prev1 }}
+                <a href="{{ $prev1.Permalink }}" class="group block">
+                    <article class="relative">
+                        <!-- Post Image -->
+                        <div class="mt-4">
+                            <div class="aspect-w-16 aspect-h-9 rounded overflow-hidden ring-1 ring-emerald-800 group-hover:ring-2 group-hover:ring-emerald-600 transition-all duration-150 ease-in-out">
+                                {{ with $prev1.Resources.GetMatch $prev1.Params.cover }}
+                                    <img src="{{ .Permalink }}" alt="Cover Image for {{ $prev1.Title }}" class="w-full h-full object-cover">
+                                {{ end }}
+                            </div>
+                        </div>
+            
+                        <!-- Post Title -->
+                        <div class="relative max-w-xl flex items-center">
+                            <h3 class="mt-4 text-xl font-semibold leading-6 text-emerald-700 flex items-center group-hover:text-emerald-600 transition-all duration-100 ease-in-out">
+                            {{ $prev1.Title }}
+                            <span class="h-8 w-6 ml-2 transform transition-all duration-100 ease-in-out group-hover:translate-x-0.5">
+                                <svg class="h-full w-full transition-all duration-100 ease-in-out stroke-current text-emerald-700 group-hover:stroke-emerald-600" fill="none" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </span>
+                            </h3>
+                        </div>
+            
+                        <!-- Post Description -->
+                        <p class="mt-1 text-base text-emerald-800 group-hover:text-emerald-600 transition-all duration-100 ease-in-out">
+                            {{ if $prev1.Params.description }}
+                            {{ $prev1.Params.description }}
+                            {{ else if $prev1.Summary }}
+                            {{ $prev1.Summary }}
+                            {{ end }}
+                        </p>
+                    </article>
+                </a>
+                {{ end }}
+            
+                <!-- Display the second link (second previous post) -->
+                {{ if $prev2 }}
+                <a href="{{ $prev2.Permalink }}" class="group block">
+                    <article class="relative">
+                        <!-- Post Image -->
+                        <div class="mt-4">
+                            <div class="aspect-w-16 aspect-h-9 rounded overflow-hidden ring-1 ring-emerald-800 group-hover:ring-2 group-hover:ring-emerald-600 transition-all duration-150 ease-in-out">
+                                {{ with $prev2.Resources.GetMatch $prev2.Params.cover }}
+                                    <img src="{{ .Permalink }}" alt="Cover Image for {{ $prev2.Title }}" class="w-full h-full object-cover">
+                                {{ end }}
+                            </div>
+                        </div>
+            
+                        <!-- Post Title -->
+                        <div class="relative max-w-xl flex items-center">
+                            <h3 class="mt-4 text-xl font-semibold leading-6 text-emerald-700 flex items-center group-hover:text-emerald-600 transition-all duration-100 ease-in-out">
+                            {{ $prev2.Title }}
+                            <span class="h-8 w-6 ml-2 transform transition-all duration-100 ease-in-out group-hover:translate-x-0.5">
+                                <svg class="h-full w-full transition-all duration-100 ease-in-out stroke-current text-emerald-700 group-hover:stroke-emerald-600" fill="none" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                </svg>
+                            </span>
+                            </h3>
+                        </div>
+            
+                        <!-- Post Description -->
+                        <p class="mt-1 text-base text-emerald-800 group-hover:text-emerald-600 transition-all duration-100 ease-in-out">
+                            {{ if $prev2.Params.description }}
+                            {{ $prev2.Params.description }}
+                            {{ else if $prev2.Summary }}
+                            {{ $prev2.Summary }}
+                            {{ end }}
+                        </p>
+                    </article>
+                </a>
+                {{ end }}
+            </div>
+        
+        </section>
+        {{ end }}
     </footer>
 </article>

@@ -1,5 +1,32 @@
-<ul id="breadcrumbs">
-    {{if .Parent }}
-    <div class="mt-2"><a class="inline-flex gap-2 text-sm font-semibold items-center text-emerald-700 hover:text-emerald-600" href="{{ .Parent.Permalink }}"><span class="w-4 h-4 stroke-2">{{ partial "processor/svg" "arrow-left" }}</span>Back</a></div>
-    {{- end }}
+<ul id="breadcrumbs" class="flex justify-between items-center">
+    {{ if .Parent }}
+    <!-- "Back to all" link on the left side -->
+    <div class="mt-2 flex items-center">
+        <a class="inline-flex gap-1 text-sm font-semibold items-center text-emerald-700 hover:text-emerald-600 group duration-150 ease-out" href="{{ .Parent.Permalink }}">
+            <span class="w-4 h-4 stroke-2 transform transition-all duration-150 ease-out group-hover:-translate-x-0.5">
+                {{ partial "processor/svg" "arrow-left" }}
+            </span>
+            Back to all
+            {{ if eq .Section "ux-design" }}
+                <span class="sm:inline">UX Design Work</span>
+            {{ else if eq .Section "design-build" }}
+                <span class="sm:inline">Architecture & Construction Work</span>
+            {{ end }}
+        </a>
+    </div>
+    {{ end }}
+
+    <!-- "Next" link on the right side, with conditional text based on screen size -->
+    <!-- {{ $next := .PrevInSection }}
+    {{ if $next }}
+    <div class="mt-2 flex items-center">
+        <a class="inline-flex gap-1 text-sm font-semibold items-center text-emerald-700 hover:text-emerald-600 group duration-150 ease-out" href="{{ $next.Permalink }}">
+            <span class="sm:hidden">Next</span>
+            <span class="hidden sm:inline">Next: {{ $next.Title }}</span>
+            <span class="w-4 h-4 stroke-2 transform transition-all duration-150 ease-out group-hover:translate-x-0.5">
+                {{ partial "processor/svg" "arrow-right" }}
+            </span>
+        </a>
+    </div>
+    {{ end }} -->
 </ul>

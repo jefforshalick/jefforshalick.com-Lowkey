@@ -1,10 +1,34 @@
 <nav>
-    <ul class="flex flex-wrap justify-center uppercase text-xs font-semibold gap-7 text-gray-600 list-none">
+    <ul class="flex flex-wrap justify-center uppercase text-xs font-semibold gap-7 list-none">
         {{ $currentPage := . }}
-        {{ range site.Menus.main }}
+        {{ range $index, $element := site.Menus.main }}
         {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
-        {{- $page_url:= $currentPage.Permalink | absLangURL }}
-        <li class="{{- if eq $menu_item_url $page_url }}text-gray-900{{else}}text-gray500{{ end -}}"><a href="{{ .URL }}" class="tracking-wide hover:text-emerald-700">{{ .Name }}</a></li>
+        {{- $page_url := $currentPage.Permalink | absLangURL }}
+        
+        {{- $is_active := false }}
+        {{- if eq $menu_item_url $page_url }}
+            {{- $is_active = true }}
+        {{- else if and .Page (eq $currentPage.Section .Page.Section) (ne $currentPage.IsHome true) }}
+            {{- $is_active = true }}
+        {{- else if and (strings.HasPrefix $page_url $menu_item_url) (not $currentPage.IsHome) (ne .URL "/") }}
+            {{- $is_active = true }}
+        {{- end }}
+
+        <li class="{{ if $is_active }}text-emerald-800 underline{{else}}text-emerald-800{{ end }} {{ if eq $index (sub (len site.Menus.main) 1) }}hidden sm:block{{ end }}">
+            
+            {{ if in .Name "↗" }}
+                <a href="{{ .URL }}" {{ with .Params.target }}target="{{ . }}"{{ end }} 
+                   class="tracking-wide hover:text-emerald-700 transition-all duration-150 group">
+                    {{ replace .Name "↗" "" | safeHTML }}
+                    <span class="inline-block transform transition-all duration-150 ease-out group-hover:translate-x-0.5 group-hover:-translate-y-0.5">↗</span>
+                </a>
+            {{ else }}
+                <a href="{{ .URL }}" {{ with .Params.target }}target="{{ . }}"{{ end }} 
+                   class="tracking-wide hover:text-emerald-700 transition-all duration-150">
+                    {{ .Name }}
+                </a>
+            {{ end }}
+        </li>
         {{ end }}
     </ul>
 </nav>

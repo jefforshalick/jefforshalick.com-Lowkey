@@ -1,22 +1,30 @@
 <a href="{{ .Permalink }}" class="flex items-center group">
-    <article class="article-list-item relative isolate flex flex-col gap-6 sm:flex-row ring-1 inset-0 ring-inset ring-gray-900/10 rounded p-4 w-full">
-        <div class="relative w-full sm:w-1/2 sm:w-32 sm:shrink-0 max-height group-hover:opacity-50">
-            <div class="h-full w-full rounded overflow-hidden ring-gray-900/10 ring-1">
+    <article class="article-list-item relative isolate flex flex-col gap-4 sm:flex-row inset-0 ring-inset ring-gray-900/10 rounded-md p-0 w-full">
+        <div class="relative w-full sm:w-1/2 sm:w-32 sm:shrink-0 max-height">
+            <div class="h-full w-full rounded overflow-hidden ring-emerald-800 ring-1 group-hover:ring-emerald-600 group-hover:ring-2 transition-all duration-150kl0 ease-in-out">
                 <img src="{{ .Permalink }}{{ .Params.cover }}" alt="Cover Image">
             </div>
         </div>
         <div class="flex flex-col flex-grow sm:pl-2">
             <div class="relative max-w-xl flex items-center">
-                <h3 class="mt-1 text-xl font-semibold leading-6 text-gray-900 flex items-center group-hover:text-emerald-700">
+                <h3 class="mt-1 text-xl font-semibold leading-6 text-emerald-700 flex items-center group-hover:text-emerald-600 transition-all duration-100 ease-in-out">
                 {{ .Title }}
-                <span class="h-6 w-6 ml-2">
-                    <svg class="h-full w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <span class="h-8 w-6 ml-2 transform transition-all duration-100 ease-in-out group-hover:translate-x-0.5">
+                    <svg class="h-full w-full transition-all duration-100 ease-in-out stroke-current text-emerald-700 group-hover:stroke-emerald-600" fill="none" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                     </svg>
                 </span>
                 </h3>
             </div>
-            <p class="mt-2 text-base text-gray-600 group-hover:text-emerald-700">
+            <h3 class="text-large font-semibold text-emerald-900/70 group-hover:text-emerald-600 transition-all duration-100 ease-in-out">
+                {{ .Params.role }}
+                <span class="font-bold">
+                    {{ if .Params.company }}
+                        @ {{ .Params.company }}
+                    {{ end }}
+                </span>
+            </h3>
+            <p class="mt-2 text-base text-emerald-800 group-hover:text-emerald-600 transition-all duration-100 ease-in-out">
                 {{ if .Params.description }}
                 {{ .Params.description }}
                 {{ else if .Summary }}
@@ -26,22 +34,3 @@
         </div>
     </article>
 </a>
-
-
-
-<!-- Original list layout -->
-
-<!-- <article class="flex flex-col">
-    <a href=" {{ .Permalink }} ">
-        <div class="list">
-            <h1 class="text-xl font-bold text-emerald-700 gap-8 hover:text-emerald-600">{{ .Title }}</h1>
-            <span class="text-gray-600">
-            {{ if .Params.description }}
-            {{ .Params.description }}    
-            {{ else if .Summary  }}
-            {{ .Summary }}
-            {{ end }}
-            </span>
-        </div>
-    </a>
-</article> -->
