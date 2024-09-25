@@ -40,7 +40,7 @@
 
 [[main]]
     identifier = "email"
-    name = "Email ↗"
+    name = "Email"
     url = "mailto:hi@jefforshalick.com"
     weight = 6
     
@@ -81,8 +81,8 @@
     weight = 3
 
 [[social]]
-    identifier = "contact"
-    name = "Contact"
+    identifier = "email"
+    name = "Email"
     url = "mailto:hi@jefforshalick.com"
     weight = 4
 

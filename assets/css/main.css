@@ -241,6 +241,10 @@ a:hover {
   background-color: #F6F0EB;
 }
 
+.text-beige {
+  color: #F6F0EB;
+}
+
 h6 {
   margin-bottom: 4px !important;
   color: #064e3bb3 !important;
