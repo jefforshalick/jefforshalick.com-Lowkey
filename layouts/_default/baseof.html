@@ -13,7 +13,7 @@
         <meta property="og:type" content="website">
         <meta property="og:title" content="Jeff Orshalick">
         <meta property="og:description" content="The work and times of Jeff Orshalick">
-        <meta property="og:image" content="img/social.jpg">
+        <meta property="og:image" content="/img/social.jpg">
 
         <!-- Twitter Meta Tags -->
         <meta name="twitter:card" content="summary_large_image">
@@ -21,7 +21,7 @@
         <meta property="twitter:url" content="https://www.jefforshalick.com">
         <meta name="twitter:title" content="Jeff Orshalick">
         <meta name="twitter:description" content="The work and times of Jeff Orshalick">
-        <meta name="twitter:image" content="img/social.jpg">
+        <meta name="twitter:image" content="/img/social.jpg">
     </head>
     <body class="max-w-screen-md px-10 mx-auto min-h-screen flex flex-col bg-custom">
         <div id="notification-bar" class="hidden fixed top-0 left-0 right-0 bg-emerald-700 text-beige text-center py-3 z-50 transition-all duration-200 ease-in-out">
@@ -33,8 +33,6 @@
             {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . }}
-
-        <!-- Include your mailto-handler.js script just before the closing body tag -->
         <script src="/js/mailto-handler.js"></script>
     </body>
 </html>

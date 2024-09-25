@@ -34,5 +34,4 @@ We developed this company and product over the course of 2 years.
 
 ![image](5.jpg)
 
-
 {{< /full-width-post >}}
