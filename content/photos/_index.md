@@ -1,5 +1,5 @@
 ---
-title: "Jeff O | Photos"
+title: "Jeff O | Photo Room"
 header: "You found it!"
 ---
 
