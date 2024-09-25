@@ -1,6 +1,6 @@
 ---
 title: "Jeff O | Photo Room"
-header: "You found it!"
+header: "You found the Photo Room!"
 ---
 
 ###### Congratulations on finding and welcome to the secret photo room.
