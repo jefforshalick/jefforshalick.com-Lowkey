@@ -1,4 +1,16 @@
-<footer class="pt-10 pb-6 grid gap-4 sm:gap-0 sm:grid-cols-2 mt-auto pt-20 mx-auto sm:mx-0">
-    {{ partial "footer/copyright" . }}
-    {{ partial "footer/social" . }}
+<footer class="pt-10 pb-10 mt-auto pt-20 grid gap-6 grid-cols-1 xs:!grid-cols-2">
+    <!-- Copyright Section -->
+    <div class="text-xs font-semibold text-emerald-900 flex items-center xs:!items-start">
+        © {{ replace .Site.Copyright "{year}" now.Year }} {{ .Site.Title }}
+    </div>
+    <!-- Social Links Section -->
+    <div class="text-xs font-semibold text-emerald-900 flex items-center xs:!justify-end">
+        <ul class="flex gap-4">
+            {{ range $index, $element := site.Menus.social }}
+            <li>
+                <a href="{{ .URL }}" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-700 transition-all duration-150">{{ .Name }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
 </footer>

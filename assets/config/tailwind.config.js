@@ -13,6 +13,10 @@ module.exports = {
             fontFamily: {
                 'sans': ['"Inter"', '-apple-system', 'BlinkMacSystemFont', 'avenir next', 'avenir', 'segoe ui', 'helvetica neue', 'helvetica', 'Cantarell', 'Ubuntu', 'roboto', 'noto', 'arial', 'sans-serif'],
             },
+            screens: {
+                'xs': '448px',
+                '2xs': '360px',
+              },
         },
     },
     plugins: [
