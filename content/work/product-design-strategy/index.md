@@ -100,7 +100,7 @@ Below, you can see how we extended the analytics experience and offeirng by reta
 
 ![image](integration.jpg)
 
-#### Answering out customers' questions
+#### Answering our customers' questions
 The impetus of this project was around quick fixes. However, I began to realize that this project was one of growth and transformation. I developed this list of questions to guide us in our future work.
 1. How do people feel about my business?
 2. What do people like and dislike about my business?
