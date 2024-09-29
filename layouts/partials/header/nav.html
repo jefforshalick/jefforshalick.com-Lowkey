@@ -15,8 +15,6 @@
         {{- end }}
 
         <li class="group text-emerald-700
-            {{ if eq $index (sub (len site.Menus.main) 1) }}hidden xs:!block{{ end }}
-            {{ if eq $index (sub (len site.Menus.main) 2) }}hidden 2xs:!block{{ end }}
             {{ with $is_active }}border-b-2 border-emerald-600 inline{{ end }}
             hover:border-emerald-900
             active:translate-y-1 transition-all duration-150 pb-1">
