@@ -37,10 +37,10 @@
         {{ if gt (len $relatedPosts) 0 }}
         <section class="related-posts mt-8">
             <h2 class="text-2xl font-medium mb-2 pb-6 text-emerald-900">More
-                {{ if eq .Section "ux-design" }}
-                UX Design Work
-                {{ else if eq .Section "architecture" }}
-                Architecture & Construction Work
+                {{ if eq .Section "work" }}
+                Design Work
+                {{ else }}
+                Work
             {{ end }}
                 <a href="{{ .Site.BaseURL }}{{ .Section }}/" class="text-emerald-700 hover:text-emerald-600 text-sm ml-2 font-medium whitespace-nowrap">
                     See all
