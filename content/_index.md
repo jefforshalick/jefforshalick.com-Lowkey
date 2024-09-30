@@ -11,7 +11,7 @@ class: "home"
 </div>
 
 <div>
-    <a href="/work" class="group block mb-24 !no-underline">
+    <a href="/work" class="group block mb-24 !no-underline haptic-link">
     <div class="relative max-w-xl flex items-center">
         <p class="text-xl font-semibold text-emerald-900 flex items-center group-hover:text-emerald-700 transition-all duration-100 ease-in-out mb-2">
             See some of my work
