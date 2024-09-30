@@ -42,7 +42,7 @@
                 {{ else }}
                 Work
             {{ end }}
-                <a href="{{ .Site.BaseURL }}{{ .Section }}/" class="text-emerald-700 hover:text-emerald-600 text-sm ml-2 font-medium whitespace-nowrap">
+                <a href="{{ .Site.BaseURL }}{{ .Section }}/" class="text-emerald-700 hover:text-emerald-600 text-sm ml-2 font-medium whitespace-nowrap haptic-link">
                     See all
                 </a>
             </h2>
@@ -87,7 +87,7 @@
             
                 <!-- Display the first link (previous post) -->
                 {{ if $prev1 }}
-                <a href="{{ $prev1.Permalink }}" class="group block">
+                <a href="{{ $prev1.Permalink }}" class="group block haptic-link">
                     <article class="relative">
                         <!-- Post Image -->
                         <div class="mt-4">
@@ -124,7 +124,7 @@
             
                 <!-- Display the second link (second previous post) -->
                 {{ if $prev2 }}
-                <a href="{{ $prev2.Permalink }}" class="group block">
+                <a href="{{ $prev2.Permalink }}" class="group block haptic-link">
                     <article class="relative">
                         <!-- Post Image -->
                         <div class="mt-4">

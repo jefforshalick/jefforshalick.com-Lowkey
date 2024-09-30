@@ -2,7 +2,7 @@
     {{ if .Parent }}
     <!-- "Back to all" link on the left side -->
     <div class="mt-2 flex items-center">
-        <a class="inline-flex gap-1 text-sm font-semibold items-center text-emerald-700 hover:text-emerald-600 group duration-150 ease-out" href="{{ .Parent.Permalink }}">
+        <a class="inline-flex gap-1 text-sm font-semibold items-center text-emerald-700 hover:text-emerald-600 group duration-150 ease-out haptic-link" href="{{ .Parent.Permalink }}">
             <span class="w-4 h-4 stroke-2 transform transition-all duration-150 ease-out group-hover:-translate-x-0.5">
                 {{ partial "processor/svg" "arrow-left" }}
             </span>
