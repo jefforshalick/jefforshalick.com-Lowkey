@@ -4,6 +4,7 @@ class: "home"
 ---
 
 {{< rawhtml >}}
+<img src="jeff-and-child.jpg" alt="Jeff and child" class="hidden">
 
 <div class="font-semibold text-2xl pb-14 sm:pb-20 text-emerald-900">
     I’m Jeff – a product designer and leader, specializing in building and scaling high-growth enterprise SaaS products and design teams.
