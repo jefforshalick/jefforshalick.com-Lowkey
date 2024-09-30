@@ -33,7 +33,7 @@ During this project, we were also in the middle of a pretty big overhaul of our 
 ![image](1.jpg)
 
 ### Interactions
-Here is a quick video showing some of the interactions and patterns zi designed into this page.
+Here is a quick video showing some of the interactions and patterns.
 
 ![image](1.gif)
 
