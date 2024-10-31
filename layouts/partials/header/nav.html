@@ -26,15 +26,3 @@
         {{ end }}
     </ul>
 </nav>
-
-<!-- Script moved out of the li loop -->
-<script>
-  document.querySelectorAll('.haptic-link').forEach(link => {
-    link.addEventListener('click', () => {
-      // Vibration for Android devices
-      if (navigator.vibrate) {
-        navigator.vibrate([30]); // Short vibration
-      }
-    });
-  });
-</script>
