@@ -5,7 +5,6 @@ date: 2022-08-01
 description: "Zero-to-One, Research, Product Design, Mobile App, Illustration"
 cover: "cover.jpg"
 ---
-More details to come but in the meantime, here's some UI.
 
 ![image](cover.jpg)
 
