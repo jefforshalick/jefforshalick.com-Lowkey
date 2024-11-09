@@ -6,6 +6,8 @@ description: "Zero-to-One, Research, Product Design, Mobile App, Illustration"
 cover: "cover.jpg"
 ---
 
+{{< full-width-post >}}
+
 ![image](cover.jpg)
 
 ![image](2.jpg)
@@ -37,3 +39,5 @@ cover: "cover.jpg"
 ![image](16.jpg)
 
 ![image](17.jpg)
+
+{{< /full-width-post >}}
