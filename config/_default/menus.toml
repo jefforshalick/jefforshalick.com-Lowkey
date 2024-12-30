@@ -69,16 +69,30 @@
 #     weight = 1
 
 [[social]]
-    identifier = "linkedin"
-    name = "LinkedIn"
-    url = "https://linkedin.com/in/jefforshalick"
-    weight = 3
+    identifier = "work"
+    name = "Work"
+    url = "/work"
+    weight = 1
+    
+[[social]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume"
+    weight = 2
 
 [[social]]
     identifier = "Contact"
     name = "Contact"
     url = "mailto:hi@jefforshalick.com"
-    weight = 2
+    weight = 3
+
+[[social]]
+    identifier = "linkedin"
+    name = "LinkedIn"
+    url = "https://linkedin.com/in/jefforshalick"
+    weight = 4
+
+
 
 # [[social]]
 #     identifier = "Dribbble"
