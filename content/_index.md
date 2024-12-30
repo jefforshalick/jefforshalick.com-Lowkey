@@ -6,11 +6,11 @@ class: "home"
 {{< rawhtml >}}
 <img src="jeff-and-child.jpg" alt="Jeff and child" class="hidden">
 
-<div class="font-semibold text-2xl pb-14 sm:pb-20 text-emerald-900">
-    I’m Jeff – a product designer and leader, specializing in building and scaling high-growth enterprise SaaS products and design teams.
+<div class="font-normal text-2xl pb-16 text-emerald-900">
+    I’m Jeff—a product designer with a knack for interaction design, a focus on simpler solutions, and experience collaborating with teammembers to deliver on both business and customer needs.
 </div>
 
-<div>
+<!-- <div>
     <a href="/work" class="group block mb-24 !no-underline haptic-link">
     <div class="relative max-w-xl flex items-center">
         <p class="text-xl font-semibold text-emerald-900 flex items-center group-hover:text-emerald-700 transition-all duration-100 ease-in-out mb-2">
@@ -26,7 +26,7 @@ class: "home"
         </div>
     </div>
 </a>
-</div>
+</div> -->
 
 <div class="w-full my-8 pb-8 sm:pb-16">
     <svg class="w-full h-8" viewBox="0 0 3000 60" xmlns="http://www.w3.org/2000/svg" fill="none"> <path d="M0 40 L100 0 L200 40 L300 0 L400 40 L500 0 L600 40 L700 0 L800 40 L900 0 L1000 40 L1100 0 L1200 40 L1300 0 L1400 40 L1500 0 L1600 40 L1700 0 L1800 40 L1900 0 L2000 40 L2100 0 L2200 40 L2300 0 L2400 40 L2500 0 L2600 40 L2700 0 L2800 40 L2900 0 L3000 40" 
