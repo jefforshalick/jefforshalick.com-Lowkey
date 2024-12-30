@@ -62,11 +62,11 @@
 #     weight = 4
 
 
-[[social]]
-    identifier = "Instagram"
-    name = "Instagram"
-    url = "https://www.instagram.com/jeffopalooza"
-    weight = 1
+# [[social]]
+#     identifier = "Instagram"
+#     name = "Instagram"
+#     url = "https://www.instagram.com/jeffopalooza"
+#     weight = 1
 
 [[social]]
     identifier = "linkedin"
