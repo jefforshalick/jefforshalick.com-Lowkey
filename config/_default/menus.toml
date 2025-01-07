@@ -19,7 +19,7 @@
 [[main]]
     identifier = "resume"
     name = "Resume"
-    url = "/resume"
+    url = "/"
     weight = 3
 
 [[main]]
@@ -34,7 +34,7 @@
     url = "https://www.linkedin.com/in/jefforshalick"
     weight = 5
     [main.params]
-        target = "_blank"
+        # target = "_blank"
 
 # [[main]]
 #     identifier = "writing"
