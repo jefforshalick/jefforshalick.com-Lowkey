@@ -9,7 +9,7 @@ Download my resume
 
 From 3-person startups to well-established thousand-person companies, I've focused on building quality relationships that lead to quality results. Below are the places I've worked.
 
-**UX Designer and Manager** @ [Reputation](https://www.reputation.com)
+**Lead UX Designer and Manager** @ [Reputation](https://www.reputation.com)
 
 **Sr. Product Designer** @ [Secureframe](https://www.secureframe.com)
 
@@ -17,6 +17,6 @@ From 3-person startups to well-established thousand-person companies, I've focus
 
 **Co-Founder & Designer** @ Happy Monday
 
-**UX Designer & Manager** @ [RetailMeNot](https://www.retaimenot.com)
+**Sr. UX Designer & Manager** @ [RetailMeNot](https://www.retaimenot.com)
 
 **Interaction Designer** @ [Workiva](https://www.workiva.com)
