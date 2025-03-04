@@ -3,7 +3,7 @@ title: "ngrok: An Outside Perspective"
 draft: false
 date: 2022-12-10
 description: "Ngrok has an opportunity to expand beyond its tunneling roots into broader networking, security, and observability solutions. Key focus areas include improving mid-market adoption, refining product positioning, enhancing usability, and strengthening community engagement to better serve developers and enterprises alike."
-cover: "cover.jpg"
+cover: "ngrok_logo.png"
 role: 
 company: "ngrok"
 ---
