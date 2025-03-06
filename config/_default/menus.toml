@@ -29,10 +29,16 @@
     weight = 4
 
 [[main]]
+    identifier = "Github"
+    name = "Github"
+    url = "https://github.com/jefforshalick"
+    weight = 5
+
+[[main]]
     identifier = "linked-in"
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/jefforshalick"
-    weight = 5
+    weight = 6
 
 
 # [[main]]
