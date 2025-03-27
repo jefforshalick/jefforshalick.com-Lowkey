@@ -17,6 +17,6 @@ From 3-person startups to well-established thousand-person companies, I've focus
 
 **Co-Founder & Designer** @ Happy Monday
 
-**Sr. UX Designer & Manager** @ [RetailMeNot](https://www.retaimenot.com)
+**Sr. UX Designer & Manager** @ [RetailMeNot](https://www.retailmenot.com)
 
 **Interaction Designer** @ [Workiva](https://www.workiva.com)
