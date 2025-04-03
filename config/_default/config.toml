@@ -23,3 +23,4 @@ summaryLength= 15
 # Ignore specific warnings
 [logger]
   ignoreErrors = ['warning-goldmark-raw-html']
+  ignoreLogs = ['warning-goldmark-raw-html']
